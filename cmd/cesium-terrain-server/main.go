@@ -15,6 +15,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Hello, World!")
 	port := flag.Uint("port", 8000, "the port on which the server listens")
 	tilesetRoot := flag.String("dir", ".", "the root directory under which tileset directories reside")
 	webRoot := flag.String("web-dir", "", "(optional) the root directory containing static files to be served")
